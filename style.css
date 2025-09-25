@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 🔹 Header */
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #ffd700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* 🎯 Quote under title */
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2em;
+  color: #ffd700;
+  margin-top: 0.5rem;
+}
+
+/* 🔹 Headings */
+h2 {
+  color: #b8860b;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #444;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* 🔹 Paragraphs */
+p {
+  max-width: 90%;
+  margin: 0.5rem auto;
+  text-align: left;
+  font-size: 1.05em;
+  line-height: 1.6em;
+}
+
+/* ✨ Highlighted Sections (Intro, Songs, Why Classic) */
+.highlight {
+  background-color: #fff8dc; /* light gold background */
+  border-left: 5px solid #b8860b;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+/* 🔹 Lists */
+ol,
+ul {
+  max-width: 90%;
+  margin: 0 auto 1rem;
+  font-size: 1.1em;
+}
+
+ol li {
+  font-weight: bold;
+  margin-top: 0.8rem;
+}
+
+ul li {
+  font-weight: bold;
+  list-style-type: "🦁 ";
+  margin-top: 0.8rem;
+}
+
+/* 🔹 Poster */
+.poster-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.poster-container img {
+  max-width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+}
+
+/* 🔹 Tables */
+table {
+  border-collapse: collapse;
+  margin: 1rem auto;
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #aaa;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+/* 🎭 Character Table */
+.character-table {
+  width: 90%;
+  margin: 1.5rem auto 2rem;
+}
+
+.character-table th {
+  background-color: #ffd700;
+  color: #222;
+  font-weight: bold;
+}
+
+/* 🔹 Section Dividers */
+hr {
+  width: 70%;
+  border: 1px solid #b8860b;
+  margin: 2rem auto;
+}
+
+/* 🔹 Footer */
+footer {
+  background-color: #222;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9em;
+}
+
+/* 🔹 Trailer Link */
+.trailer-link {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.2em;
+  color: #b8860b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.trailer-link:hover {
+  text-decoration: underline;
+}
